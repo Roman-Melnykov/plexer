@@ -26,7 +26,7 @@ def remove_pattern(pattern):
         os.rename(f, new_name)
         counter += 1
         new_names.append(new_name)
-    print(f'{counter} file(s) were renamed:')
+    print(f'\n{counter} file(s) were renamed:')
     for f in new_names:
         print(f'>> {Fore.GREEN}{f}{Fore.RESET}')
 
