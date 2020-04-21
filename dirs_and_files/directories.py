@@ -10,7 +10,7 @@ def dir_options():
     for d in temp_dirs:
         if os.path.isdir(d):
             dirs.append(d)
-    print(f'You are currently in {Fore.GREEN} {os.getcwd()} {Fore.RESET} directory.\n\tWhere do you like to go:\n1. Up'
+    print(f'\nYou are currently in {Fore.GREEN} {os.getcwd()} {Fore.RESET} directory.\n\tWhere do you like to go:\n1. Up'
           f'\n2. Stay here and go back to options'
           f'\n3. Enter an absolute path manually')
     for d in range(0, len(dirs)):

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54b1b1b6-311d-4536-aecc-7737c64ee77a" name="Default Changelist" comment="" />
+    <list default="true" id="54b1b1b6-311d-4536-aecc-7737c64ee77a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Roman.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dirs_and_files/directories.py" beforeDir="false" afterPath="$PROJECT_DIR$/dirs_and_files/directories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dirs_and_files/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/dirs_and_files/files.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ar1ilsQn0P2jl14sbY7RsxtyzM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,22 +134,22 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="631" height="466" key="DebuggerActiveHint/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488925186" />
-    <state width="1899" height="325" key="GridCell.Tab.0.bottom" timestamp="1587488973008">
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom" timestamp="1587493609790">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1899" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
-    <state width="1899" height="325" key="GridCell.Tab.0.center" timestamp="1587488973008">
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587493609790" />
+    <state width="1899" height="325" key="GridCell.Tab.0.center" timestamp="1587493609790">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1899" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
-    <state width="1899" height="325" key="GridCell.Tab.0.left" timestamp="1587488973008">
+    <state width="1899" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587493609790" />
+    <state width="1899" height="325" key="GridCell.Tab.0.left" timestamp="1587493609790">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1899" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
-    <state width="1899" height="325" key="GridCell.Tab.0.right" timestamp="1587488973008">
+    <state width="1899" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587493609790" />
+    <state width="1899" height="325" key="GridCell.Tab.0.right" timestamp="1587493609790">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="1899" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
+    <state width="1899" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587493609790" />
     <state width="1899" height="400" key="GridCell.Tab.1.bottom" timestamp="1587488956888">
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
@@ -154,16 +166,5 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state width="1899" height="400" key="GridCell.Tab.1.right/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488956888" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/dirs_and_files/files.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

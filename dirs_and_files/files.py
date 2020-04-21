@@ -5,29 +5,39 @@ import re
 
 def remove_pattern(pattern):
     import app
-    """[.]*s\d[\d]*e\d[\d]* - s00e00, s01e022 etc"""
+    """(s\\d[\\d]*\\.?e\\d[\\d]*) - s00.e00, s01e022 etc"""
     files = get_files_in_current_directory()
-    print(f'You are about to process the following files:')
-    for f in files:
-        print(f'{f}')
+    files_to_process = get_files_that_contain(files, pattern)
+
+    print(f'\nYou are about to process the following files:')
+    for f in files_to_process:
+        print(f'>> {f}')
     yn = input('Continue? (y/n):')
-    if yn.lower() == 'n':
+    if yn.lower() != 'y':
         app.options_to_do()
-        return
+
     counter = 0
+    for f in files_to_process:
+        f_name = os.path.basename(f)
+        p = re.search(pattern, f_name)
+        new_name = change_to_plex(pattern, p, f_name, os.path.dirname(f))
+        os.rename(f, new_name)
+        counter += 1
+    print(f'{counter} file(s) were renamed.')
+
+
+def get_files_that_contain(files: list, pattern: str):
+    files_to_process = []
     for f in files:
         f_name = os.path.basename(f)
         p = re.search(pattern, f_name)
         if p:
-            print(f'f_name: {f_name}')
-            new_name = os.path.dirname(f) + change_to_plex(pattern, p, f_name)
-            os.rename(f, new_name)
-            counter += 1
-    print(f'{counter} file(s) were renamed.')
+            files_to_process.append(f)
+    return files_to_process
 
 
-def change_to_plex(pattern, p, string):
-    return re.sub(pattern, remove_letters(p.group(1)), string)
+def change_to_plex(pattern, p, file_name, dir_path):
+    return dir_path + re.sub(pattern, remove_letters(p.group(1)), file_name)
 
 
 def get_files_in_current_directory():
@@ -41,7 +51,7 @@ def get_files_in_current_directory():
 
 def remove_letters(s: str):
     result = ''
-    for l in s:
-        if l.isnumeric():
-            result += l
+    for let in s:
+        if let.isnumeric() or let == '.':
+            result += let
     return result
