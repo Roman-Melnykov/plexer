@@ -4,7 +4,7 @@ import os
 
 
 def options_to_do():
-    print(f'You are currently in {Fore.GREEN} {os.getcwd()} {Fore.RESET} directory.\n\t'
+    print(f'\nYou are currently in {Fore.GREEN} {os.getcwd()} {Fore.RESET} directory.\n\t'
           f'What do you like to do?\n'
           f'1. Switch working directory\n'
           f'2. Work with files here\n'
