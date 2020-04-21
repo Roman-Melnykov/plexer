@@ -1,6 +1,7 @@
 from os import listdir, getcwd
 import os
 import re
+from colorama import Fore
 
 
 def remove_pattern(pattern):
@@ -11,19 +12,23 @@ def remove_pattern(pattern):
 
     print(f'\nYou are about to process the following files:')
     for f in files_to_process:
-        print(f'>> {f}')
+        print(f'>> {Fore.GREEN}{f}{Fore.RESET}')
     yn = input('Continue? (y/n):')
     if yn.lower() != 'y':
         app.options_to_do()
 
     counter = 0
+    new_names = []
     for f in files_to_process:
         f_name = os.path.basename(f)
         p = re.search(pattern, f_name)
         new_name = change_to_plex(pattern, p, f_name, os.path.dirname(f))
         os.rename(f, new_name)
         counter += 1
-    print(f'{counter} file(s) were renamed.')
+        new_names.append(new_name)
+    print(f'{counter} file(s) were renamed:')
+    for f in new_names:
+        print(f'>> {Fore.GREEN}{f}{Fore.RESET}')
 
 
 def get_files_that_contain(files: list, pattern: str):

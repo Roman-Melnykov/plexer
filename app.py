@@ -24,11 +24,11 @@ def options_to_do():
 
 
 if __name__ == '__main__':
-    print('Tip:'
+    print(f'{Fore.GREEN}Tip:'
           '\n\t- If you want to switch a drive, go to "Switch working directory", "Enter an absolute path manually", '
           'enter something like "C:" (without quotes)'
           '\nHow to use:'
           '\n\t- Go to "Switch working directory" and go to the directory files to rename placed'
           '\n\t- Go back to options and choose "Work with files here"'
-          '\n\t- Follow the instructions')
+          f'\n\t- Follow the instructions{Fore.RESET}')
     options_to_do()
