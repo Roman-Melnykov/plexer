@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54b1b1b6-311d-4536-aecc-7737c64ee77a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ar1ilsQn0P2jl14sbY7RsxtyzM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Work\Python\Projects\Plexer\dirs_and_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Plexer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="directories" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Plexer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Work\Python\Projects\Plexer\dirs_and_files\directories.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Plexer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.directories" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b1b1b6-311d-4536-aecc-7737c64ee77a" name="Default Changelist" comment="" />
+      <created>1587479027300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587479027300</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="243" width="816" height="729" key="#Intentions" timestamp="1587484187738">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state x="552" y="243" width="816" height="729" key="#Intentions/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587484187738" />
+    <state width="631" height="466" key="DebuggerActiveHint" timestamp="1587488925186">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="631" height="466" key="DebuggerActiveHint/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488925186" />
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom" timestamp="1587488973008">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
+    <state width="1899" height="325" key="GridCell.Tab.0.center" timestamp="1587488973008">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.center/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
+    <state width="1899" height="325" key="GridCell.Tab.0.left" timestamp="1587488973008">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.left/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
+    <state width="1899" height="325" key="GridCell.Tab.0.right" timestamp="1587488973008">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.right/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488973008" />
+    <state width="1899" height="400" key="GridCell.Tab.1.bottom" timestamp="1587488956888">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="400" key="GridCell.Tab.1.bottom/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488956888" />
+    <state width="1899" height="400" key="GridCell.Tab.1.center" timestamp="1587488956888">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="400" key="GridCell.Tab.1.center/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488956888" />
+    <state width="1899" height="400" key="GridCell.Tab.1.left" timestamp="1587488956888">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="400" key="GridCell.Tab.1.left/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488956888" />
+    <state width="1899" height="400" key="GridCell.Tab.1.right" timestamp="1587488956888">
+      <screen x="0" y="0" width="1920" height="1170" />
+    </state>
+    <state width="1899" height="400" key="GridCell.Tab.1.right/0.0.1920.1170/-1920.5.1920.1050@0.0.1920.1170" timestamp="1587488956888" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dirs_and_files/files.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
